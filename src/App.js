@@ -1,10 +1,16 @@
 import React from 'react';
 
+
 import './App.css';
 import Counter from './components/Counter';
 import DistrictTable from './components/DistrictTable';
+import ConfirmChart from './components/ConfirmChart';
 
 function App() {
+
+
+
+
   return (<div class="container">
 
 	<ul class="nav">
@@ -28,10 +34,15 @@ function App() {
 <div class="col-sm-12 col-md-6">
 	<Counter></Counter>
 </div>
+<div class="col-sm-12 col-md-6">
+<ConfirmChart></ConfirmChart>
+</div>
 </div>
 
     
       <DistrictTable></DistrictTable>
+
+
 <hr/>
 <div class="row ">
 <div class="col-12 text-center footer"><p>Number of views </p>
